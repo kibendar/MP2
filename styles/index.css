@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    background-color: rgba(76, 0, 130, 0.658);
+    border: 2px solid black;
+}
+img {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+img:hover {
+    transform: scale(1.023)   
+}
+h1 {
+    text-align: center; 
+    background-color: rgba(178, 34, 34, 0.767);
+}
+.part-1 {
+    background-color: midnightblue;
+    border: 5px solid rgba(128, 0, 128, 0.575);
+    cursor: pointer;
+    transform: rotate(0.5s);
+}
+.part-2 {
+    text-align: end;
+    background-color: midnightblue;
+    border: 5px solid rgba(128, 0, 128, 0.575);
+    cursor: pointer;
+    transform: rotate(0.5s);
+}
+.part-3 {
+    background-color: midnightblue;
+    border: 5px solid rgba(128, 0, 128, 0.575);
+    cursor: pointer;
+    transform: rotate(0.5s);
+}
+.part-1:hover {
+    background-color:darkred;
+    transform: scale(1.023);
+}
+.part-2:hover {
+    background-color:darkred;
+    transform: scale(1.023);
+}
+.part-3:hover {
+    background-color:darkred;
+    transform: scale(1.023);
+}
